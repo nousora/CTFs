@@ -1,6 +1,6 @@
 - __Vulnerability__: Open Redirection and jku Claim Misuse
 - __Goal__: Abuse the jku claim to gain administrator access to the application
-- __Description__: After reviewing the application's source code, we observe that the application has a validation that the jwks.json should come only by the localhost, how ever after further review of the source code we can observe that the logout functionality is vulnerable to open redirection, thus, we can bypass the jwks.json restriction and abuse the jku functionality.
+- __Description__: After reviewing the application's source code, we observe that the application has a validation that the jwks.json should come only by the localhost, however after further review of the source code we can observe that the logout functionality is vulnerable to open redirection, thus, we can bypass the jwks.json restriction and abuse the jku functionality.
 ## jwt tool 
 
 ```sh
